@@ -55,3 +55,8 @@ APM Reports subtracted the estimate of voters who moved from the number of cance
 ## About the data
 
 The registration cancellation data comes from a public records request to the Georgia Secretary of State for records of all cancelled registrations since the 2014 general election. These records include many of the same fields as the state's voter file including registration number, first and last names, county, address, race and gender. While some of the personal information is publicly available, APM reports decided to aggregate the data by county, race and reason for removal. This aggregation does not include information about individual voters, but has counts of removed registrations that we used to calculate many of the numbers published in the story. The published data also only reflects counts of cancelled registrations since the 2016 general election.
+
+The same data is available in two files:
+
+- [cancellations_since_2016_general_by_county_reason_race.csv](https://github.com/APM-Reports/ga-voter-registration-cancellations/blob/master/cancellations_since_2016_general_by_county_reason_race.csv): One row per county, one column for each  combination of registered voter race and reason for cancellation.
+- [cancellations_since_2016_general_by_county_reason_race_tidy.csv](https://github.com/APM-Reports/ga-voter-registration-cancellations/blob/master/cancellations_since_2016_general_by_county_reason_race_tidy.csv): One row for each combination of county, registered voter race and reason for cancellation.
